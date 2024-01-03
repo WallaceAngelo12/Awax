@@ -7,6 +7,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 0.85rem;
+  overflow-x: hidden;
 }
 header {
   height: 100px;
@@ -117,8 +118,8 @@ header {
   margin-top: 20px;
 }
 
-.banner a {
-  display: block;
+.button {
+  display: inline-block;
   padding: 15px 30px;
   font-weight: 600;
   margin-top: 30px;
@@ -129,9 +130,10 @@ header {
   text-decoration: none;
 }
 
-.banner a:hover {
+.button:hover {
   transition: 0.3s;
   background-color: #987247;
+  color: #ccc;
 }
 
 .banner .slider-pointers {
@@ -159,4 +161,95 @@ header {
 
 .banner .pointer.active {
   background-color: #b28756;
+}
+
+.default {
+  padding: 50px 0;
+}
+
+.default .section-title,
+.default .section-sub {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.default .section-title {
+  font-size: 1.25rem;
+}
+
+.default .section-sub {
+  font-size: 0.75rem;
+  color: #ccc;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+.section-body {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.default.light {
+  background-color: #f7f7f7;
+}
+.default.light .section-title,
+.default.light .section-body {
+  color: #000;
+}
+
+.default.dark {
+  background-color: #000;
+}
+
+.default.dark .section-title,
+.default.dark .section-body {
+  color: #fff;
+}
+
+/* AREAS ESPECIFICAS */
+
+.section-aboutus {
+  display: flex;
+}
+
+.section-aboutus-left {
+  flex: 1;
+}
+.section-aboutus-right {
+  width: 500px;
+  text-align: center;
+}
+
+.section-aboutus-right img {
+  width: 480px;
+  box-shadow: 0px 5px 10px #333;
+}
+
+.section-services {
+  display: flex;
+}
+.section-service {
+  flex: 1;
+  text-align: center;
+  border-right: 1px solid #333;
+  padding: 15px;
+}
+
+.section-service:first-child {
+  border-left: 1px solid #333;
+}
+.section-service img {
+  width: 60px;
+  height: 60px;
+}
+.section-service h4 {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+}
+
+.section-service p {
+  margin-top: 10px;
+  font-size: 0.8125rem;
+  color: #999;
 }
