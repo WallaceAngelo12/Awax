@@ -742,3 +742,113 @@ fieldset {
 .form-item2 {
   display: grid;
 }
+
+.section-map {
+  background-image: url("../images/mapa.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 30px 0;
+  height: 300px;
+}
+
+.section-map-area {
+  width: 100vw;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.section-map-info {
+  width: 50%;
+  padding: 30px;
+  background-color: #fff;
+  color: #000;
+}
+
+.section-map-info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.section-map-info-item-img {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  padding: 5px;
+  background-color: #999;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.section-map-info-item-img img {
+  width: 15px;
+  height: auto;
+  background-position: cover;
+}
+
+.section-footer {
+  display: flex;
+  max-width: 1140px;
+  margin: auto;
+  justify-content: space-around;
+  color: #fff;
+  gap: 30px;
+}
+.section-footer-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 180px;
+}
+
+.section-footer-social {
+  display: flex;
+  justify-content: space-between;
+}
+.section-footer-social-item {
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  border-radius: 50%;
+  margin-right: 5px;
+  transition: 0.5s;
+}
+
+.section-footer-social-item:hover {
+  background-color: #b28756;
+}
+
+.section-footer-social-item img {
+  max-width: 15px;
+  max-height: 15px;
+}
+.section-footer-info {
+  max-width: 300px;
+  color: #ccc;
+}
+
+.section-footer-mail {
+  text-align: center;
+  background-color: #333;
+  width: 300px;
+  height: 180px;
+  padding: 30px;
+  border-radius: 3px;
+}
+
+.section-footer-mail input {
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ccc;
+  background-color: #333;
+  border: none;
+  border-bottom: 2px solid #ccc;
+}
+
+.section-footer-mail button {
+  max-width: 200px;
+}
