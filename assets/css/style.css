@@ -1012,8 +1012,6 @@ fieldset {
   .section-service:first-child {
     border-left: 0;
   }
-  .section-projects-filters {
-  }
   .section-projects-filters ul {
     flex-wrap: wrap;
   }
